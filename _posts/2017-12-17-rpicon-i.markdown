@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "RPiCon - Faster RaspberryPi Development"
+date:   2017-12-17 15:00:34 +0000
+categories: rpicon preact photon electron raspberrypi
+---
+
+### Idea
+
+I own a raspberry pi model B from one of the first generations which is quite hard to develop on because of how slow it is.
+
+I end up writing all of the code on my regular computer and then uploading to the pi which can be cumbersome particularly for GPIO intensive projects.
+
+The idea of RPiCon is to have an application to develop and test code locally (even with GPIO) and easily deploy.
+
+You can find code code [on github][rpicon].
+
+### Features
+
+* Edit python code
+* Run the code mocking the RPi GPIO lib
+* The GPIO mock will connect to virtual pins embedded in the application to display the output and also allow manual input.
+* Find a raspberry pi on the local network and deploy the code into it
+
+### Technology Stack
+
+[Preact] for a super small and component-based view
+
+[Electron] to build it as a native application
+
+[Photon] to easily get the feel of a mac application
+
+The development was made easier by the [preact-photon] lib and the starter app [preact-photon-electron-quick-start].
+
+### Current Status
+
+Right now I have code editor that is able to run python code with the mock GPIO available.
+
+![RPiCon Screenshot](https://i.imgur.com/93Rl2yC.png)
+
+[photon]: https://github.com/connors/photon
+[preact]: https://github.com/developit/preact
+[electron]: https://github.com/electron/electron
+[preact-photon]: https://github.com/developit/preact-photon
+[preact-photon-electron-quick-start]: https://github.com/alexkrolick/preact-photon-electron-quick-start
+[rpicon]: https://github.com/ruiclarateixeira/RPiCon
