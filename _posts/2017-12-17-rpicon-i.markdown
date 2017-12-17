@@ -13,7 +13,7 @@ I end up writing all of the code on my regular computer and then uploading to th
 
 The idea of RPiCon is to have an application to develop and test code locally (even with GPIO) and easily deploy.
 
-You can find code code [on github][rpicon].
+You can find the code [on github][rpicon].
 
 ### Features
 
