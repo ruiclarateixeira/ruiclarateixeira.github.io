@@ -36,7 +36,7 @@ The development was made easier by the [preact-photon] lib and the starter app [
 
 Right now I have code editor that is able to run python code with the mock GPIO available.
 
-![RPiCon Screenshot](https://i.imgur.com/93Rl2yC.png)
+![RPiCon Screenshot](https://i.imgur.com/xZGYcOe.png)
 
 [photon]: https://github.com/connors/photon
 [preact]: https://github.com/developit/preact
