@@ -34,9 +34,23 @@ The development was made easier by the [preact-photon] lib and the starter app [
 
 ### Current Status
 
-Right now I have code editor that is able to run python code with the mock GPIO available.
+Right now I have a code editor that is able to run python code with the mock GPIO lib available (even if it only has one method).
 
 ![RPiCon Screenshot](https://i.imgur.com/xZGYcOe.png)
+
+### What Next
+
+The main feature that I'm looking forward to fully implement is the GPIO debug. It will be awesome to see as the pins are triggered from the code and also to be able to simulate inputs into the pins.
+
+Other stuff that I'd like to get to:
+
+* Showing when the file has unsaved changes
+* Keyboard shortcuts to save, run/stop, move cursor to path input, etc
+* File tabs to have multiple files open
+* Reload file from disk if it has changed (currently have to close and reopen the file)
+* Run with parameters
+
+If you have any feedback or are keen to contribute please reach out!
 
 [photon]: https://github.com/connors/photon
 [preact]: https://github.com/developit/preact
