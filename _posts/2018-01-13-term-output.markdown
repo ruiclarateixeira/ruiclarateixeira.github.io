@@ -55,7 +55,7 @@ pyProcess.on("exit", exitCode => {
 
 However, when jumping from macos to linux and back I noticed that the behavior when the process completed was not consistent. More specifically the "exit" event did not seem to emitted on macos. Soon I realized that in linux the event was also not getting triggered for the right reasons - when the python code finished it would throw an error and cause the "exit" event to be kicked off.
 
-After tinkering for a while with the lib locally and going through its github issues I couldn't find a solution and to make matters worse the project seemed abandoned.
+After tinkering for a while with the lib locally and going through its github issues I was sure this was an issue with pty.js. I also realized that the project seemed to be abandoned even though there were quite a few pull requests.
 
 ### Fork this!
 
